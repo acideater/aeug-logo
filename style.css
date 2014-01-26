@@ -1,0 +1,187 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Rationale);
+/* 
+CSS Document we gonna learn shapes
+by: @acideater
+*/
+
+* {
+margin: 0;
+}
+
+html, body {
+height: 100%;
+}
+
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+
+.footer, .push {
+height: 4em;
+}
+
+body {
+	margin: 0;
+	font-family: 'Rationale', sans-serif;
+	font-size:24px;
+	color:#f0f0f0;
+	background-color: #051E46;
+}
+
+html{
+	font-size:100%;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	}
+	
+a{
+	color:#a6c3e1;
+	text-decoration:none;
+	}
+
+a:hover,a:active{
+	color:#6d9dce;
+	outline:0;
+	text-decoration:none;
+	opacity: 0.5;
+  -webkit-transition: opacity 0.15s linear;
+     -moz-transition: opacity 0.15s linear;
+       -o-transition: opacity 0.15s linear;
+          transition: opacity 0.15s linear;
+	}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+p{
+	font-family: 'Rationale', sans-serif;
+	line-height: 40px;
+}
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+
+  font-family: 'Rationale', sans-serif;
+  color: inherit;
+  text-rendering: optimizelegibility;
+
+	}
+h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{
+		font-weight:normal;
+		line-height:1;
+		color:#999999;
+		}
+h1{font-size:42px;line-height:40px;}
+h2{font-size:36px;line-height:40px;}
+h3{font-size:28px;line-height:40px;}
+h4{font-size:24px;line-height:20px;}
+h5{font-size:18px;line-height:20px;}
+h6{font-size:14px;line-height:20px;}
+h1 small{font-size:24px;}
+h2 small{font-size:18px;}
+h3 small{font-size:14px;}
+h4 small{font-size:14px;}
+	
+.header {
+  position: relative;
+
+ text-align: center;
+}	
+
+
+
+#logo { 
+	height:430px; /* the value here has to be the total height of your pic */
+    width:750px; /* the value here has to be the total width of your pic */
+    margin:0 auto;
+	margin-top:20px; /* because I dont want my logo on the top of the page */
+    position:relative;
+		animation: logo1 5s linear 1 alternate;
+
+}
+
+#circle1 {
+	width: 290px;
+	height: 290px;
+	background: #051E46;
+	-moz-border-radius: 80px;
+	-webkit-border-radius: 80px;
+	border-radius: 290px;
+	border: 70px solid #fff;
+	position: relative;
+	top:20px;
+	left:160px;
+	animation: logo2 5s linear 1 alternate;
+
+}
+
+#ellipse {
+	width: 720px;
+	height: 120px;
+	background: #FA362C;
+	-moz-border-radius: 720px / 120px;
+	-webkit-border-radius: 720px / 120px;
+	border-radius: 720px / 120px;
+	position: absolute;
+    top:180px;
+	left:15px;
+	animation: logo2 5s linear 1 alternate;
+}
+
+#circle2 {
+	width: 140px;
+	height: 140px;
+	background: #6D9DCE;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 140px;
+	border: 8px solid #051E46;
+	position: absolute;
+    top:160px;
+	left:296px;
+animation: logo2 3s linear 1 alternate;
+}
+
+#circle3 {
+	width: 90px;
+	height: 90px;
+	background: #ffff00;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 80px;
+	position: absolute;
+    top:315px;
+	left:380px;
+	animation: logo2 3s linear 1 alternate;
+}
+
+
+  @keyframes logo1 {
+    0%  { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+    } 
+	
+@keyframes logo2 {
+  0%, 20% {
+    transform: scale(0);
+  }
+  70%,100% { transform: scale(1); }
+}
