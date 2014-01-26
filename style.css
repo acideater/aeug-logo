@@ -2,7 +2,8 @@
 @import url(http://fonts.googleapis.com/css?family=Rationale);
 /* 
 CSS Document we gonna learn shapes
-by: @acideater
+by @acideater
+inspired by bootstrap
 */
 
 * {
@@ -100,8 +101,7 @@ h3 small{font-size:14px;}
 h4 small{font-size:14px;}
 	
 .header {
-  position: relative;
-
+ position: relative;
  text-align: center;
 }	
 
