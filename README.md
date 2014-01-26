@@ -1,7 +1,7 @@
 aeug-logo
 =========
 
-CSS Animation of AEUG's logo //
-Animação em CSS do logo da AEUG
+CSS shapes Animation of AEUG's logo //
+Animação em CSS shapes do logo da AEUG
 
 author: @acideater
