@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Rationale);
 /* 
 CSS Document we gonna learn shapes
-by @acideater
+by: @acideater
 */
 
 * {
@@ -100,9 +100,11 @@ h3 small{font-size:14px;}
 h4 small{font-size:14px;}
 	
 .header {
- position: relative;
+  position: relative;
+  padding: 40px 0;
  text-align: center;
 }	
+
 
 
 
